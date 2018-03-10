@@ -32,3 +32,4 @@ item3 = Item.new(
   seller_id: 32,
   email: "foo@example.com",
   image_url: "http://image.rakuten.co.jp/atmos-girls/cabinet/reebok/v47514-1.jpg")
+item3.save
