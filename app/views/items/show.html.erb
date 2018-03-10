@@ -17,3 +17,10 @@
 <p>
   <b>電子メール：<%= @item.email %></b>
 </p>
+<p>
+  <%=image_tag @item.image_url %>
+<p>
+  <p>
+  <%= link_to "編集", edit_item_path(@item) %>
+  <%= link_to "削除", item_path(@item), method: :delete %>
+<p>
